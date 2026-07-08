@@ -1,7 +1,6 @@
+# 🌍 HDI Prediction System – Human Development Index Prediction using Machine Learning
 
-# 🌍 HDI Prediction System – SmartBridge
-
-A Machine Learning-based Human Development Index (HDI) Prediction System developed using **Python, Flask, and Linear Regression** to estimate the Human Development Index of a country based on socio-economic indicators.
+A Machine Learning-based web application developed using **Python, Flask, and Linear Regression** to predict the **Human Development Index (HDI)** based on socio-economic indicators such as Life Expectancy, Expected Years of Schooling, and Gross National Income Per Capita.
 
 > Developed as part of the **SmartBridge AI/ML Internship Program**.
 
@@ -9,28 +8,28 @@ A Machine Learning-based Human Development Index (HDI) Prediction System develop
 
 # 📖 Overview
 
-HDI Prediction System is an intelligent web application that predicts the Human Development Index (HDI) using Machine Learning. Users provide important socio-economic indicators such as Life Expectancy, Expected Years of Schooling, and Gross National Income Per Capita. The trained machine learning model processes these inputs and predicts the corresponding HDI value.
+The HDI Prediction System is an intelligent web application that predicts the Human Development Index (HDI) of a country using Machine Learning techniques. The application analyzes important socio-economic indicators and provides an estimated HDI score through a simple and interactive web interface.
 
-The project combines **Exploratory Data Analysis (EDA), Machine Learning, and Flask** to provide an easy-to-use web interface for HDI prediction.
+The project combines **Exploratory Data Analysis (EDA), Machine Learning, and Flask** to deliver accurate predictions and demonstrate the practical use of Artificial Intelligence in socio-economic analysis.
 
 ---
 
 # 🎯 Problem Statement
 
-The Human Development Index (HDI) is one of the most important indicators used to measure a country's overall development based on health, education, and standard of living.
+The Human Development Index (HDI) is an important measure used to evaluate a country's development based on health, education, and income. Calculating HDI manually for analysis can be time-consuming and difficult when handling large datasets.
 
-Manual analysis of socio-economic data can be time-consuming and prone to errors. This project uses Machine Learning to automate HDI prediction, providing fast and reliable estimates based on user inputs.
+This project addresses this challenge by using Machine Learning to predict HDI values quickly and accurately using socio-economic indicators.
 
 ---
 
 # 🎯 Project Objectives
 
-- Develop a Machine Learning model to predict Human Development Index.
-- Analyze HDI dataset using Exploratory Data Analysis (EDA).
+- Develop an HDI prediction system using Machine Learning.
+- Analyze the HDI dataset using Exploratory Data Analysis (EDA).
 - Train and evaluate a Linear Regression model.
 - Build an interactive Flask web application.
-- Predict HDI values in real time.
-- Demonstrate the practical application of Artificial Intelligence in socio-economic analysis.
+- Predict Human Development Index values in real time.
+- Demonstrate the application of Artificial Intelligence in socio-economic analysis.
 
 ---
 
@@ -38,12 +37,12 @@ Manual analysis of socio-economic data can be time-consuming and prone to errors
 
 - 🌍 Human Development Index Prediction
 - 📊 Exploratory Data Analysis (EDA)
-- 🤖 Linear Regression Model
+- 🤖 Linear Regression Machine Learning Model
 - 🌐 Flask Web Application
 - 📱 Responsive User Interface
-- ⚡ Real-Time Prediction
+- ⚡ Instant HDI Prediction
 - ✔ Input Validation
-- 📈 Model Performance Evaluation
+- 📈 Model Evaluation using Regression Metrics
 
 ---
 
@@ -54,7 +53,7 @@ Manual analysis of socio-economic data can be time-consuming and prone to errors
 | Programming Language | Python |
 | Machine Learning | Scikit-learn, Linear Regression |
 | Backend | Flask |
-| Frontend | HTML, CSS |
+| Frontend | HTML, CSS, JavaScript |
 | Data Analysis | Pandas, NumPy, Matplotlib |
 | Development Tools | Visual Studio Code, Git, GitHub |
 
@@ -73,7 +72,7 @@ HDI-Prediction-System-SmartBridge/
 │
 │   ├── Coding & Solution.pdf
 │   ├── Code Layout, Readability and Reusability.pdf
-│   ├── Functional Features.pdf
+│   ├── No. of Functional Features Included in the Solution.pdf
 │   │
 │   └── Source Code/
 │       ├── app.py
@@ -110,8 +109,9 @@ Source Code/
 │   └── imputer.pkl
 │
 ├── static/
-│   ├── images/
-│   └── style.css
+│   ├── style.css
+│   └── images/
+│       └── background.jpg
 │
 └── templates/
     └── index.html
@@ -123,23 +123,23 @@ Source Code/
 
 ## 🏠 Home Page
 
-![Home Page](8.%20Project%20Demonstration/Screenshots/1.Home%20Page%20–%20HDI%20Prediction%20Interface.png)
+![Home Page](8.%20Project%20Demonstration/Screenshots/1.Home%20Page%20%E2%80%93%20HDI%20Prediction%20Interface.png)
 
 ---
 
 ## 📝 Prediction Input Form
 
-![Prediction Input](8.%20Project%20Demonstration/Screenshots/2.Prediction%20Input%20Form.png)
+![Prediction Input Form](8.%20Project%20Demonstration/Screenshots/2.Prediction%20Input%20Form.png)
 
 ---
 
-## 📋 User Input with Sample Values
+## 📥 User Input with Sample Values
 
 ![User Input](8.%20Project%20Demonstration/Screenshots/3.User%20Input%20with%20Sample%20Values.png)
 
 ---
 
-## 📊 HDI Prediction Result
+## 📈 HDI Prediction Result
 
 ![Prediction Result](8.%20Project%20Demonstration/Screenshots/4.HDI%20Prediction%20Result%20Page.png)
 
@@ -159,7 +159,7 @@ git clone https://github.com/Harishmagodey/HDI-Prediction-System-SmartBridge.git
 cd "5. Project Development Phase/Source Code"
 ```
 
-## 3. Create a Virtual Environment
+## 3. Create a Virtual Environment (Recommended)
 
 ### Windows
 
@@ -187,7 +187,7 @@ pip install -r requirements.txt
 python train_model.py
 ```
 
-## 6. Run the Flask Application
+## 6. Run the Application
 
 ```bash
 python app.py
@@ -204,27 +204,27 @@ http://127.0.0.1:5000
 # 🔄 Application Workflow
 
 1. Launch the Flask application.
-2. Enter:
+2. Enter the required socio-economic indicators:
    - Life Expectancy at Birth
    - Expected Years of Schooling
    - Gross National Income Per Capita
 3. Click **Predict HDI**.
-4. The Linear Regression model processes the input values.
-5. The predicted Human Development Index (HDI) is displayed.
+4. The trained Linear Regression model processes the input.
+5. The predicted Human Development Index value is displayed.
 
 ---
 
 # 🤖 Machine Learning Model
 
-### Algorithm Used
+## Algorithm Used
 
 - Linear Regression
 
-### Purpose
+## Purpose
 
-Predict the Human Development Index (HDI) using socio-economic indicators.
+- Human Development Index Prediction
 
-The trained model is saved as **hdi_model.pkl** and integrated with the Flask application for real-time prediction.
+The model was trained using the HDI dataset and saved as **hdi_model.pkl**, which is integrated with the Flask backend to provide real-time predictions.
 
 ---
 
@@ -232,10 +232,9 @@ The trained model is saved as **hdi_model.pkl** and integrated with the Flask ap
 
 | Attribute | Details |
 |-----------|---------|
-| Dataset | Human Development Index Dataset |
+| Dataset | Human Development Index (HDI) Dataset |
 | Format | CSV |
-| Input Features | 3 |
-| Output | Human Development Index (HDI) |
+| Target Variable | Human Development Index (2021) |
 
 ### Input Features
 
@@ -251,7 +250,7 @@ The trained model is saved as **hdi_model.pkl** and integrated with the Flask ap
 
 # 🧪 Testing
 
-The application was tested for:
+The application has been tested for:
 
 - Functional Testing
 - Model Evaluation
@@ -259,30 +258,38 @@ The application was tested for:
 - End-to-End Workflow
 - Local Deployment
 
-All core functionalities were successfully verified.
+All major functionalities were successfully verified.
 
 ---
 
 # ⚠️ Current Limitations
 
-- Supports only local deployment.
-- Uses Linear Regression model.
-- No cloud deployment.
+- Uses Linear Regression only.
+- Supports local deployment.
+- Uses a CSV dataset.
 - No user authentication.
-- Uses a single dataset.
+- No cloud deployment.
 
 ---
 
 # 🚀 Future Enhancements
 
 - Cloud Deployment
-- Advanced Machine Learning Models
 - Database Integration
+- Advanced Machine Learning Models
 - User Authentication
 - Dashboard and Analytics
 - REST API Support
-- Mobile Application
-- Improved Prediction Accuracy
+- Mobile-Friendly Version
+- Real-Time Data Integration
+
+---
+
+# 🎥 Project Demonstration
+
+**Demo Video**
+
+https://drive.google.com/file/d/1zkjEX5rhW3mV4N74OzeDzQy-pX_WFttF/view?usp=drivesdk
 
 ---
 
